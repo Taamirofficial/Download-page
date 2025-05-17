@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Script Skin Fredrinn Neobeast</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    h1 {
+      color: #444;
+    }
+    .skin-list {
+      margin-top: 20px;
+    }
+    .skin-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+    }
+    .skin-item img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+    .skin-info {
+      display: flex;
+      align-items: center;
+      flex-grow: 1;
+    }
+    .download-btn {
+      padding: 6px 12px;
+      background-color: #ccc;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Script Skin Fredrinn Neobeast</h1>
+    <p>
+      Skin modifikasi Fredrinn Neobeast yang menggantikan beberapa tipe skin bawaan. Website ini akan menyediakan link download dan gambar icon tiap versi skin (akan segera tersedia).
+    </p>
+
+    <div class="skin-list">
+      <div class="skin-item">
+        <div class="skin-info">
+          <img src="https://via.placeholder.com/50" alt="Default Icon" />
+          <span>Replace Default</span>
+        </div>
+        <button class="download-btn">Coming Soon</button>
+      </div>
+
+      <div class="skin-item">
+        <div class="skin-info">
+          <img src="https://via.placeholder.com/50" alt="Basic Icon" />
+          <span>Replace Basic</span>
+        </div>
+        <button class="download-btn">Coming Soon</button>
+      </div>
+
+      <div class="skin-item">
+        <div class="skin-info">
+          <img src="https://via.placeholder.com/50" alt="Elite Icon" />
+          <span>Replace Elite</span>
+        </div>
+        <button class="download-btn">Coming Soon</button>
+      </div>
+
+      <div class="skin-item">
+        <div class="skin-info">
+          <img src="https://via.placeholder.com/50" alt="Sparkle Icon" />
+          <span>Replace Sparkle</span>
+        </div>
+        <button class="download-btn">Coming Soon</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
